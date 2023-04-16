@@ -1,0 +1,42 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.footer__copy {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copy > span:first-child {
+  color: #03c75a;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+}
+.footer__copy > span:nth-child(2) {
+  color: #b1bec5;
+  font-weight: 100;
+  margin: 0px 8px;
+}
+.footer__copy > span:last-child {
+  color: #ffffff;
+  font-weight: 100;
+}
+
+footer > nav {
+  color: #b1bec5;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #b1bec5;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KOKOA Talk!|Login</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body class="login__column">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <span>18:43</span>
+        <!--i는 icon의 줄임말-->
+      </div>
+      <div class="status-bar__column"></div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-bolt-lightning"></i>
+        <i class="fa-sharp fa-solid fa-wifi"></i>
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">전감자</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+      </div>
+    </header>
+    <main class="main-chat">
+      <div class="chat__timestamp">2023년 4월 17일</div>
+
+      <div class="message-row">
+        <img src="https://avatars.githubusercontent.com/u/125572102?v=4" />
+        <div class="message-row__content">
+          <span class="message__author">전감자</span>
+          <div class="message__letter">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__letter">
+            <span class="message__bubble">Hi! nice to meet you!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>화면이 너무 커요!!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/918a7c0be2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

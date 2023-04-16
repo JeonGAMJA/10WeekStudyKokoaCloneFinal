@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KOKOA Talk!|Login</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body class="login__column">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <span>18:43</span>
+        <!--i는 icon의 줄임말-->
+      </div>
+      <div class="status-bar__column"></div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-bolt-lightning"></i>
+        <i class="fa-sharp fa-solid fa-wifi"></i>
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+    <div class="circle__column">
+      <div class="circle"></div>
+      <span>현재 보유하고 계신 아이디와 비밀번호를 입력해주세요.</span>
+    </div>
+    <div class="login">
+      <h1 class="title">KOKOA</h1>
+      <form id="login-form" action="main.html" method="get">
+        <div class="login__input login__id">
+          <input type="text" required />
+          <i class="fa-regular fa-user"></i>
+          <label>아이디</label>
+        </div>
+        <div class="login__input login__pw">
+          <input type="password" required />
+          <i class="fa-solid fa-lock"></i>
+          <label>비밀번호</label>
+        </div>
+        <input class="login__btn" type="submit" value="로그인" />
+      </form>
+      <nav class="login__find">
+        <a href="">비밀번호 찾기</a> | <a href="">아이디 찾기</a> |
+        <a href="">회원가입</a>
+      </nav>
+    </div>
+    <div id="no-mobile">
+      <span>화면이 너무 커요!</span>
+    </div>
+    <footer>
+      <nav>
+        <a href="https://github.com/JeonGAMJA">Github</a> |
+        <a>Velog</a>
+      </nav>
+      <div class="footer__copy">
+        <span>KOKOA</span>
+        <span>copyright </span>
+        <span>© GAMJAJEON.</span>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/918a7c0be2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

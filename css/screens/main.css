@@ -1,0 +1,205 @@
+.main__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__column {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.chat__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user_avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+.chats_btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin-right: 15px;
+  background-color: #03c75a;
+  font-size: 30px;
+  color: #eceff1;
+}
+.nav__notification-count {
+  position: absolute;
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  right: 10px;
+  top: 10px;
+}
+.todo-list {
+  width: 465px;
+  height: 300px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  margin: 15px 0px;
+}
+
+.todo-list::-webkit-scrollbar,
+.adress_btn::-webkit-scrollbar,
+.bookmark::-webkit-scrollbar {
+  display: none;
+}
+.todo-list-bg {
+  width: 465px;
+  height: 400px;
+  background-image: url("../img/KakaoTalk_20230417_002045741.png");
+  background-size: cover;
+}
+
+.search {
+  position: relative;
+  width: 465px;
+  height: 80px;
+  border: 1px solid #03c75a;
+  border-radius: 40px;
+  background-color: #161d20;
+  font-size: 30px;
+}
+
+.search-bar {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  color: #eceff1;
+  padding: 3px 70px 0px 50px;
+  border-radius: 5px;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search i {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  color: #03c75a;
+}
+
+.bookmark {
+  width: 465px;
+  height: 170px;
+  display: flex;
+  margin: 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.bookmark__btns {
+  width: 700px;
+}
+
+.bookmark img {
+  object-fit: cover;
+}
+
+.bookmark > div {
+  margin-right: 15px;
+}
+.issue {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.issue > div {
+  width: 230px;
+  height: 300px;
+  border-radius: 5px;
+  background-size: cover;
+  position: relative;
+}
+.news {
+  background-image: url("../img/KakaoTalk_20230417_023820497.jpg");
+  color: #03c75a;
+}
+.issue-content {
+  width: 115px;
+  left: 10px;
+  bottom: 10px;
+}
+.issue-content > span {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  word-break: keep-all;
+  text-shadow: 2px 2px #000000;
+}
+
+.issue-content > h4 {
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: black;
+  text-shadow: 1px 1px#ffffff;
+}
+.topic {
+  background-image: url("../img/nomader.jpg");
+  color: #03c75a;
+}
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+
+.open-post__heart-count span {
+  margin-left: 3px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.3);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
