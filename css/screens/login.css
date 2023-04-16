@@ -139,7 +139,7 @@
 .circle__column {
   position: fixed;
   left: 12px;
-  top: 850px;
+  bottom: 30px;
   width: 95%;
   height: 70px;
   background-color: #161d20;
